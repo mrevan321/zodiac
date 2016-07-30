@@ -1,0 +1,40 @@
+body{text-align: center;
+	color: white;
+background-image: url("../img/space.jpg");}
+
+h1{font-family: 'Quicksand', sans-serif;
+letter-spacing: .2px}
+
+
+
+button{background-color: darkblue;
+color: white;
+border-radius: 5px;}
+
+button:hover{background-color: #3BB9FF;
+	transition: 1.5s;
+cursor: pointer;}
+
+#sign{height: 40px;
+font-size: 20px;}
+
+button {height: 45px;}
+
+a{color: lightblue;
+font-size: 40px;
+font-family: 'Quicksand', sans-serif;
+margin-bottom: 390px;
+text-decoration: none;}
+
+a:hover{color: white;
+transition: 1s;}
+
+
+span{color: yellow;}
+
+#strength{font-size: 32px;
+font-family: 'Oswald', sans-serif;}
+#weak{font-size: 32px;
+font-family: 'Oswald', sans-serif;}
+/*2nd page*/
+
