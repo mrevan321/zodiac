@@ -91,7 +91,9 @@ function horoscope() {
 		} else {
 			document.getElementById("yourSign").innerHTML = "That's not sign . Try again!"
 			document.getElementById("strength").innerHTML = ""
+			document.getElementById('weak').innerHTML=""
 			document.getElementById("icon").src = ""
+			document.getElementById("compat").innerHTML=""
 		}
 	}
 }
