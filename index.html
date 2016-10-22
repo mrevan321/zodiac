@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>zodiac</title>
 
 	 <link rel="icon" 
@@ -8,20 +9,24 @@
       href="img/star.png">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	
 
-	<link href='https://fonts.googleapis.com/css?family=Quicksand|Play' rel='stylesheet' type='text/css'>
-	
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">	
 	
 	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 
 
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+	
 	
 </head>
 <body>
-
-
 
 
 	
@@ -33,32 +38,49 @@
 					<!-- where you get the value -->
 						<input id="sign" placeholder="Enter your sign" >
 					
-						<button type="button" onclick="horoscope()" class="btn">Click Me</button>
+						<button type="button" onclick="horoscope()" class="btn btn-danger">Click Me</button>
 					
 				</form>
 
-				
-
-				<!-- where the sign is placed -->
-
 				<div id="info">
 				<!-- where the sign is placed -->
-					<h1 id="yourSign"></h1>
+					<h2 id="yourSign"></h2>
 					<!-- where the pic is placed -->
 					<img id="icon" src="">
 				<!-- where the fortune is placed -->
 				<div id="strength"></div>
 				<div id="weak"></div>
 
-				</div>
+				
+				
+
+				
 				<br>
 				<br>
 				<br>
 				<div id="compat"></div>
+				</div>
+				<br>
  
+				
+<div class="round">
+	<img class="img-responsive" src="img/circle.png">
+</div>
 
+				
+
+				<!-- where the sign is placed -->
+				
+<script>				
+$("button").click(function(){
+    $("info").fadeIn();
+});
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 	<script src="js/main.js"></script>
+	<script type="js/bootstrap.js"></script>
 	
 
 </body>

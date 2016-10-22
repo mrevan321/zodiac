@@ -2,9 +2,27 @@ body{text-align: center;
 	color: white;
 background-image: url("../img/space.jpg");}
 
-h1{font-family: 'Quicksand', sans-serif;
+h1{font-family: 'Julius Sans One', sans-serif;
 letter-spacing: .2px}
 
+h2{font-family: 'Poiret One', cursive;
+letter-spacing: 2px;}
+
+form{position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+#info{position: relative;
+	display: inline-block;
+	border-radius: 25px;
+
+	background-color: rgba(128, 128, 128, 0.37);
+	margin: 0 auto;
+}
+
+#reveal{position: relative;
+bottom: 90px;}
 
 
 button{background-color: darkblue;
@@ -16,7 +34,10 @@ button:hover{background-color: #3BB9FF;
 cursor: pointer;}
 
 #sign{height: 40px;
+
 font-size: 20px;}
+
+input:focus{background-color: lightgrey;}
 
 button {height: 45px;}
 
@@ -38,3 +59,77 @@ font-family: 'Oswald', sans-serif;}
 font-family: 'Oswald', sans-serif;}
 /*2nd page*/
 
+/*#friends{ 
+    position:fixed;
+}
+
+#friends2{
+	position: relative;
+}
+*/
+
+.left{float: left;
+position: relative;
+top: 80px;}
+
+.right{float: right;
+
+position: relative;
+top: 80px;}
+
+
+.round {
+    -webkit-animation:spin 4s linear infinite;
+    z-index: -1;
+    position: absolute;
+
+
+  
+    /*left: 480px;*/
+    
+    display: block;
+    margin: 0 auto;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 7s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+/*queries*/
+
+/*@media (max-width:1888px ){
+	.round{left: 460px;}
+
+
+
+@media (max-width:1850px ){
+	.round{left: 450px;}
+
+}
+
+@media (max-width:1840px ){
+	.round{left: 430px;}
+
+
+
+@media (max-width:1810px ){
+	.round{left: 410px;}
+
+}
+
+@media (max-width:1777px ){
+	.round{left: 400px;}
+
+}
+
+@media (max-width:1746px ){
+	.round{left: 380px;}
+
+}
+
+@media (max-width:1726px ){
+	.round{left: 360px;}
+
+}*/

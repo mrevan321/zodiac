@@ -20,7 +20,7 @@ var zodiac = [
 	{
 		sign: "taurus",
 		fortune: "Dependable, Generous, Independent",
-		fortune:"Materialistic, Lazy",
+		fortune2:"Materialistic, Lazy",
 		image: "img/Taurus.png"
 	},
 	{
@@ -77,7 +77,10 @@ function horoscope() {
 	// if input =sign
 	var sign = document.getElementById("sign").value
 	var str="See who you are compatible with"
-	var result=str.link("index2.html");
+	var result=str.link("index3.html");
+
+document.getElementById('sign').value = "";
+	
 
 	for(i = 0; i < zodiac.length; i++) {
 		// if sign entered = one of the arrays .stop
@@ -87,9 +90,10 @@ function horoscope() {
 			document.getElementById("strength").innerHTML = "<span>Strengths</span>: " + zodiac[i].fortune
 			document.getElementById("weak").innerHTML = "<span>Weakness:</span> " + zodiac[i].fortune2
 			document.getElementById("compat").innerHTML= result;
+
 			return
 		} else {
-			document.getElementById("yourSign").innerHTML = "That's not sign . Try again!"
+			document.getElementById("yourSign").innerHTML = "That's not a sign . Try again!"
 			document.getElementById("strength").innerHTML = ""
 			document.getElementById('weak').innerHTML=""
 			document.getElementById("icon").src = ""
@@ -97,4 +101,3 @@ function horoscope() {
 		}
 	}
 }
-
